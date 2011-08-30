@@ -10,7 +10,8 @@
 
 @implementation HelloWorldViewController
 
-- (IBAction)dizerOla:(id)sender {
+- (IBAction) dizerOla {
+    [mensagem setHidden:NO];
     [mensagem setText:[nome text]];
 }
 
