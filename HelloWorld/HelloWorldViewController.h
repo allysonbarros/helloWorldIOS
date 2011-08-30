@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HelloWorldViewController : UIViewController
+@interface HelloWorldViewController : UIViewController {
+    IBOutlet UILabel *mensagem;
+    IBOutlet UITextField *nome;
+}
+
+-(IBAction) dizerOla;
 
 @end
