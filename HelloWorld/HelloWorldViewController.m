@@ -12,7 +12,7 @@
 
 - (IBAction) dizerOla {
     [mensagem setHidden:NO];
-    [mensagem setText:[nome text]];
+    [mensagem setText:[NSString stringWithFormat:@"Olá, %@!", [nome text]]];
 }
 
 
